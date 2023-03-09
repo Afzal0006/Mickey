@@ -80,16 +80,16 @@ PHOTO = [
 ]
 
 EMOJIOS = [ 
-      "💣",
-      "💥",
-      "🪄",
-      "🧨",
-      "⚡",
-      "🤡",
-      "👻",
-      "🎃",
-      "🎩",
-      "🕊",
+      "✨",
+      "😎",
+      "🥂",
+      "🥳",
+      "🌝",
+      "🥰",
+      "🥶",
+      "♥️",
+      "💫",
+      "💞",
 ]
       
 STICKER = [
@@ -113,32 +113,32 @@ START = f"""
 DEV_OP = [
     [
         InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", url=f"t.me/{OWNER_USERNAME}"),
-        InlineKeyboardButton(text="✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text="🥀 ꜱᴜᴘᴘᴏʀᴛ 🥀", url=f"https://t.me/{SUPPORT_GRP}"),
     ],
     [
         InlineKeyboardButton(
-            text="🧸 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🧸",
+            text="🥀 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🥀",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="🚀 ʜᴇʟᴘ & ᴄᴍᴅs 🚀", callback_data="HELP"),
+        InlineKeyboardButton(text="🥶 ʜᴇʟᴘ & ᴄᴍᴅs 🥶", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ❄️", callback_data="SOURCE"),
-        InlineKeyboardButton(text="☁️ ᴀʙᴏᴜᴛ ☁️", callback_data="ABOUT"),
+        InlineKeyboardButton(text="💫 sᴏᴜʀᴄᴇ 💫", callback_data="SOURCE"),
+        InlineKeyboardButton(text="😎 ᴀʙᴏᴜᴛ 😎", callback_data="ABOUT"),
     ],
 ]
 PNG_BTN = [
     [
          InlineKeyboardButton(
-             text="🧸 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🧸",
+             text="🙈 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🙈",
              url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
          ),
      ],
      [
          InlineKeyboardButton(
-             text="✨ sᴜᴘᴘᴏʀᴛ ✨", 
+             text="🥀 sᴜᴘᴘᴏʀᴛ 🥀", 
              url=f"https://t.me/{SUPPORT_GRP}",
          ),
      ],
@@ -152,23 +152,23 @@ HELP_READ = f"""
 """
 BACK = [
      [
-           InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="BACK"),
+           InlineKeyboardButton(text="🥶 ʙᴀᴄᴋ 🥶", callback_data="BACK"),
      ],
 ]
 HELP_BTN = [
      [
-          InlineKeyboardButton(text="🐳 ᴄʜᴀᴛʙᴏᴛ 🐳", callback_data="CHATBOT_CMD"),
-          InlineKeyboardButton(text="🎄 ᴛᴏᴏʟs 🎄", callback_data="TOOLS_DATA"),
+          InlineKeyboardButton(text="🥀 ᴄʜᴀᴛʙᴏᴛ 🥀", callback_data="CHATBOT_CMD"),
+          InlineKeyboardButton(text="🥀 ᴛᴏᴏʟs 🥀", callback_data="TOOLS_DATA"),
      ],
      [
-          InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="BACK"),
-          InlineKeyboardButton(text="❄️ ᴄʟᴏsᴇ ❄️", callback_data="CLOSE"),
+          InlineKeyboardButton(text="🥀 ʙᴀᴄᴋ 🥀", callback_data="BACK"),
+          InlineKeyboardButton(text="🥀 ᴄʟᴏsᴇ 🥀", callback_data="CLOSE"),
      ],
 ]
 
 CLOSE_BTN = [
       [
-           InlineKeyboardButton(text="❄️ ᴄʟᴏsᴇ ❄️", callback_data="CLOSE"),
+           InlineKeyboardButton(text="🥀 ᴄʟᴏsᴇ 🥀", callback_data="CLOSE"),
       ],
 ]
 
@@ -182,12 +182,12 @@ CHATBOT_ON = [
 PNG_BTN = [
     [
          InlineKeyboardButton(
-             text="🧸 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🧸",
+             text="🥀 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🥀",
              url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
          ),
      ],
      [
-         InlineKeyboardButton(text="✨ ᴄʟᴏsᴇ ✨", 
+         InlineKeyboardButton(text="🥀 ᴄʟᴏsᴇ 🥀", 
                               callback_data="CLOSE",
          ),
      ],
@@ -251,36 +251,36 @@ CHATBOT_READ = f"""
 """
 CHATBOT_BACK = [
         [     
-              InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="CHATBOT_BACK"),
-              InlineKeyboardButton(text="❄️ ᴄʟᴏsᴇ ❄️", callback_data="CLOSE"),
+              InlineKeyboardButton(text="🥀 ʙᴀᴄᴋ 🥀", callback_data="CHATBOT_BACK"),
+              InlineKeyboardButton(text="🥀 ᴄʟᴏsᴇ 🥀", callback_data="CLOSE"),
         ],
 ]
 HELP_START = [
      [
-            InlineKeyboardButton(text="🚀 ʜᴇʟᴘ 🚀", callback_data="HELP"),
-            InlineKeyboardButton(text="🐳 ᴄʟᴏsᴇ 🐳", callback_data="CLOSE"),
+            InlineKeyboardButton(text="🥀 ʜᴇʟᴘ 🥀", callback_data="HELP"),
+            InlineKeyboardButton(text="🥀 ᴄʟᴏsᴇ 🥀", callback_data="CLOSE"),
      ],
 ]
 
 HELP_BUTN = [
      [
-           InlineKeyboardButton(text="🚀 ʜᴇʟᴘ 🚀", url=f"https://t.me/{BOT_USERNAME}?start=help"),
-           InlineKeyboardButton(text="🐳 ᴄʟᴏsᴇ 🐳", callback_data="CLOSE"),
+           InlineKeyboardButton(text="🥀 ʜᴇʟᴘ 🥀", url=f"https://t.me/{BOT_USERNAME}?start=help"),
+           InlineKeyboardButton(text=" ᴄʟᴏsᴇ 🥀", callback_data="CLOSE"),
      ],
 ]
 
 ABOUT_BTN = [
       [
-           InlineKeyboardButton(text="🎄 sᴜᴘᴘᴏʀᴛ 🎄", url=f"https://t.me/{SUPPORT_GRP}"),  
-           InlineKeyboardButton(text="🚀 ʜᴇʟᴘ 🚀", callback_data="HELP"),
+           InlineKeyboardButton(text="🥀 sᴜᴘᴘᴏʀᴛ 🥀", url=f"https://t.me/{SUPPORT_GRP}"),  
+           InlineKeyboardButton(text=" ʜᴇʟᴘ 🥀", callback_data="HELP"),
       ],
       [    
-           InlineKeyboardButton(text="🍾 ᴏᴡɴᴇʀ 🍾", url=f"https://t.me/{OWNER_USERNAME}"), 
-           InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ❄️", callback_data="SOURCE"),
+           InlineKeyboardButton(text=" ᴏᴡɴᴇʀ 🥀", url=f"https://t.me/{OWNER_USERNAME}"), 
+           InlineKeyboardButton(text=" sᴏᴜʀᴄᴇ 🥀", callback_data="SOURCE"),
       ],
       [ 
-           InlineKeyboardButton(text="🐳 ᴜᴘᴅᴀᴛᴇs 🐳", url=f"https://t.me/{UPDATE_CHNL}"),  
-           InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="BACK"),
+           InlineKeyboardButton(text="🥀 ᴜᴘᴅᴀᴛᴇs 🥀", url=f"https://t.me/{UPDATE_CHNL}"),  
+           InlineKeyboardButton(text="🥀 ʙᴀᴄᴋ 🥀", callback_data="BACK"),
       ],
 ]
 SOURCE_READ = f"**ʜᴇʏ, ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏғ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɪs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.**\n**ᴘʟᴇᴀsᴇ ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ & ɢɪᴠᴇ ᴛʜᴇ sᴛᴀʀ ✯**\n**──────────────────**\n**ʜᴇʀᴇ ɪs ᴛʜᴇ [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://github.com/Devarora-0981/Mickey)**\n**──────────────────**\n**ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴀᴛ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_GRP}).\n<b>||©️ @{OWNER_USERNAME}||</b>"
